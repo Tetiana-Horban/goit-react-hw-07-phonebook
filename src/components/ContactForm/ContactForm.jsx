@@ -2,8 +2,7 @@ import { useState } from 'react';
 import {
   useCreateContactMutation,
   useFetchContactsQuery,
-} from 'redux/contacts/contactSlice';
-// import PropTypes from 'prop-types';
+} from 'redux/contacts/contactApi';
 import Notiflix from 'notiflix';
 import { Form, Label, Text, Input, ButtonSubmit } from './ContactForm.styled';
 
